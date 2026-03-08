@@ -212,12 +212,12 @@ img {
 
 .hobby {
   list-style-position: inside;
-　padding-left: 50px;
 }
 
 .hobby li {
   line-height: 1.8;
 }
+
 /*--------------------------------
  Works
 ---------------------------------*/
@@ -607,6 +607,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 
 
 
