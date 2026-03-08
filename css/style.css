@@ -266,12 +266,12 @@ img {
 .works-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   margin-bottom: -40px;
 }
 
 .works-item {
   width: 31.74603%;
-  gap: 30px;
   margin-bottom: 40px;
   color: #333;
 }
@@ -607,6 +607,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 
 
 
