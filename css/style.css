@@ -198,7 +198,6 @@ img {
 .profile-body p {
   font-size: 15px;
   line-height: 1.8;
-  margin-bottom: 1.5em;
 }
 
 .profile-body h3 {
@@ -211,6 +210,10 @@ img {
   margin-bottom: 30px;
 }
 
+.greeting p {
+  margin-bottom: 1.5em;
+}
+	
 .hobby {
   list-style-position: inside;
 }
@@ -608,6 +611,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 
 
 
