@@ -266,7 +266,7 @@ img {
 .works-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 1.58730%;
   margin-bottom: -40px;
 }
 
@@ -607,6 +607,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 
 
 
