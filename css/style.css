@@ -209,7 +209,7 @@ img {
 }
 
 .greeting p:last-of-type {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .hobby {
@@ -608,6 +608,7 @@ img {
     margin-bottom: 20px;
   }
 }
+
 
 
 
