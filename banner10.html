@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja"><!-- InstanceBegin template="/Templates/works.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="KANA YAMAMOTO のポートフォリオサイトです" />
+  <title>KANA YAMAMOTO ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+  <link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
 
+<body>
+	
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href="index.html">KANA YAMAMOTO</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="index.html#about">ABOUT</a></li>
+			<li class="gnav-item"><a href="index.html#works">WORKS</a></li>
+            <li class="gnav-item"><a href="index.html#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="index.html#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+	  
+<!-- InstanceBeginEditable name="work" -->
+     <article class="article">
+	  <div class="container">
+       <div class="article-container">
+        <h2 class="article-title">保湿美容液広告バナー<br>（架空）</h2>
+        <div class="article-body">
+         <p><img src="img/beauty_serum.png" alt="保湿美容液広告バナー"></p>
+         <h3>テーマ</h3>
+          <p>新作保湿美容液の宣伝</p>
+         <h3>制作期間</h3>
+          <p>1，2時間程度</p>
+         <h3>使用ツール</h3>
+          <p>Canva/ChatGPT（素材は生成AIを使用）</p>
+         <h3>ターゲット・目的</h3>
+          <p>ターゲット：20～30代女性・乾燥や肌荒れが気になる・ナチュラル、透明感系が好き<br>
+             目的：「これを使えば肌がきれいになりそう！」と思わせる・購入してもらう</p>
+         <h3>イメージ</h3>
+          <p>清潔感/うるおい・透明感を感じさせる</p>
+         <h3>条件</h3>
+          <p>Instagram想定<br>
+             入れる要素：商品画像・メイン「うるおい満ちる素肌へ」・「ヒアルロン酸配合」・CTAボタン<br></p>
+         <h3>デザインについて</h3>
+		  <div class="design-about">
+           <h4>■ メイン</h4>
+		    <p>白・ブルーを基調にし、水のエフェクトを使用することで透明感や清潔感を演出しました。</p>
+	 	  </div>
+		  <div class="design-about">
+           <h4>■ 文字や写真の配置</h4>
+		    <p>明朝体を使用して高級感・上品さを意識し、きれいな印象に仕上げました。<br>
+	 		   　情報量が多いため、線やバッジを用いることで情報を整理し、見やすさを意識しました。</p>
+	      </div>
+         </div>
+	    </div>
+<!-- InstanceEndEditable -->	  	  		   
+       <div class="home-link"> <a href="index.html#works">Works一覧へ</a> </div>
+      </div>
+     </article>
+   </div>
+
+   <!-- /contact -->
+    <div class="page-top" id="js-page-top"> <span class="material-icons-outlined">expand_less</span> </div>
+
+   <!-- footer -->
+    <footer class="footer">
+     <div class="copyright">&copy;KANA YAMAMOTO</div>
+    </footer>
+   <!-- /footer -->
+
+   <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+     // ScrollRevealのインスタンス
+      const sr = ScrollReveal({ reset: false, distance: "80px"});
+	  
+     // .mvにフェードイン適用
+      sr.reveal('.mv', { delay: 500, origin: "bottom"});
+	  
+     //　1番目（header）以外の.containerにフェードイン適用
+	  const containers = document.querySelectorAll('.container');
+      containers.forEach((el, index) => {
+      if (index > 0) {	
+      sr.reveal(el, { delay: 600, origin: "bottom"});
+	  }
+	  });
+    </script>
+    <script>
+     // workのタブ切り替え
+　　　 function showTab(index) {
+	  const tabs = document.querySelectorAll(".tab-button");
+	  const contents = document.querySelectorAll(".tab-content");
+	   
+	  tabs.forEach((tab, i) => {
+	   tab.classList.toggle("active", i === index); //選択されたタブだけactiveクラス追加
+	   contents[i].classList.toggle("active", i===index); //選択されたコンテンツだけactiveクラス追加
+	  });
+   }
+  </script>
+   <!-- /script -->
+
+</body>
+<!-- InstanceEnd --></html>
